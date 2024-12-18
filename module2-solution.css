@@ -1,28 +1,81 @@
 	/** Base Styles **/
 	* {
 		box-sizing: border-box;
+
 		}
 
 		h1 {
             text-align: center;
 			margin-bottom: 15px;
+			font-family: cursive;
 			}
 
-		p{
+		p {
 			border: 4px solid black;
-			background-color: #678570;
+			background-color: #929cac;
 			width: 90%;
-			height: 150px;
+			height: 90%;
+			padding-top: 35px;
+			padding-left: 6px;
 			margin-right: auto;
-			margin-left: auto;
-			font-family: Helvetica;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			font-family: cursive;
 			color: white;
+			position: relative;
 			}
+
+	    .p2 {
+			position: absolute;
+			top: 0px;
+			right: 10%;
+			text-align: center;
+			border: 2px solid black;
+			background-color: #7fc57f;
+			width: 100px;
+			height: 30px;
+			font-family: cursive;
+			color: black;
+			padding: 3px;
+		}
+
+		.p3{
+			position: absolute;
+			top: 0px;
+			right: 10%;
+			text-align: center;
+			border: 2px solid black;
+			background-color: #ff9393;
+			width: 100px;
+			height: 30px;
+			font-family: cursive;
+			color: black;
+			padding: 3px;
+
+		}
+
+		.p4{
+			position: absolute;
+			top: 0px;
+			right: 10%;
+			text-align: center;
+			border: 2px solid black;
+			background-color: #cca4b8;
+			width: 100px;
+			height: 30px;
+			font-family: cursive;
+			color: black;
+			padding: 3px;
+
+		}
 
 			/*** Positioning ***/
 			div {
 				position: relative;
-				left: 65px;
+				width: 100%;
+				margin: 0 auto;
+				height: 200px;
+				left: 80px;
 			}
 
 			/*** Responsive Framework ***/
@@ -38,7 +91,6 @@
 				.col-lg-7, .col-lg-8, .col-lg-9,
 				.col-lg-10, .col-lg-11, .col-lg-12 {
 					float: left;
-					border: 1px solid green;
 				}
 				.col-lg-1 {
 					width: 8.33%
@@ -85,7 +137,6 @@
 				.col-md-7, .col-md-8, .col-md-9,
 				.col-md-10, .col-md-11, .col-md-12 {
 					float: left;
-					border: 1px solid green;
 				}
 				.col-md-1 {
 					width: 8.33%
@@ -122,7 +173,10 @@
 				}	
 				.col-md-12 {
 					width: 100%
-				}		
+				}	
+				.full-width-md {
+					width: 100%;
+				}	
 			}
             /*** Small Devices ***/
             @media (max-width: 767px) {
@@ -131,7 +185,6 @@
 				.col-sm-7, .col-sm-8, .col-sm-9,
 				.col-sm-10, .col-sm-11, .col-sm-12 {
 					float: left;
-					border: 1px solid green;
 				}
 				.col-sm-1 {
 					width: 8.33%
